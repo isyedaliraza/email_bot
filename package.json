@@ -1,0 +1,17 @@
+{
+  "name": "email_bot",
+  "version": "1.0.0",
+  "description": "A program that can be used to send recurring emails.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Syed Ali Raza Bokhari",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.7.8"
+  }
+}
