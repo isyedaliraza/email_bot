@@ -37,4 +37,6 @@ cron.schedule('0 9-18 * * 1-5', (_) => {
 			}
 		}
 	)
+}, {
+	timezone: 'Asia/Karachi'
 })
