@@ -20,7 +20,7 @@ const transporter = nodemailer.createTransport({
 const body = fs.readFileSync('body.html')
 
 // Schedule a cron that will run every Monday to Friday from 9 AM to 6 PM
-cron.schedule('* 9-18 * * 1-5', (_) => {
+cron.schedule('0 9-18 * * 1-5', (_) => {
 	transporter.sendMail(
 		{
 			from: process.env.EMAIL,
